@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box
+   
+}
+
+.container { 
+    text-align: center;
+    background-image: url("http://www.acheer2u.com/cat/beer/img/banner002.jpg");
+    background-size: cover;
+    height: 600px;
+  
+
+ }
+
+body {
+    font-family: sans-serif;
+
+}
+#header { 
+    padding-top: 40px;
+    color: white;
+    height: 300px;
+    padding-bottom: 60px;
+}
+
+#form {
+    padding-top: 20px; 
+    background-color: white;
+    width: 50%;
+    margin-left:25% ;
+    border: 3px solid blue;
+}
+
+
+ .letter {
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    margin: 0 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: white;
+
+}
+.current-word {
+    list-style: none;
+}
+.output {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.correct {
+    background-color: black;
+    transition: all 1s ease;
+}
+.error {
+    color: red;
+    opacity: 1;
+}
+.warning {
+    color: orange;
+    opacity: 1;
+}
+.win {
+    color: green;
+    opacity: 1;
+}
